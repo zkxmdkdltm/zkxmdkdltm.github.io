@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>★Dongyun★</title>
+    <script src="https://kit.fontawesome.com/67c54296f6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>jQuery(document).ready(function($){$(".scroll").click(function(event){event.preventDefault();$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);});});</script>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="content">
+            <div class="nav_box"><a href="#profile" class="scroll"><i class="fa-solid fa-user">  PROFILE</i></a></div>
+            <div class="nav_box"><a href="#hobby" class="scroll"><i class="fa-solid fa-person-walking">  HOBBY</i></a></div>
+            <div class="nav_box"><a href="#trip" class="scroll"><i class="fa-solid fa-suitcase">  TRIP</i></a></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="profile">
+            <div>
+                <h3 class="section-title">
+                    <i class="fa-solid fa-user"> Profile</i> 
+                </h3>
+            </div>
+            <hr/>
+        </section>
+        <div class="intro">
+            <div class="img-box">
+                <img class="boodrami" src="../boodrami/angry.png" alt="boodrami">
+            </div>
+            <div class="profile">
+                <p class="profile-words" style="font-size:70px;">DONGYUN KIM</p>
+                <p class="profile-words">Kookmin University Software Engineering</p>
+                <p class="profile-words">스쿼시, 사진 촬영, 여행을 좋아합니다~</p>
+            </div>
+        </div>
+        <div class="middle">
+            <section id="hobby">
+                <div>
+                    <h3 class="section-title">
+                        <i class="fa-solid fa-person-walking"> HOBBY</i> 
+                    </h3>
+                </div>
+                <hr/>
+            </section>
+            <div class="hobby">
+                <div><img src="../boodrami/squash.jpg">
+                    <ul>
+                        <li>2021년 7월부터 시작해 약 9개월 동안 스쿼시를 취미로 하는 중입니다.</li>
+                        <br>
+                        <li>아직 마이너한 스포츠라 생소할 테지만, 한번 경험해 보면 빠져나오기
+                            힘들 정도로 정말 재밌습니다!
+                        </li>
+                        <br>
+                        <li>사진에 보이는 것처럼 아주 역동적인 스포츠이기 때문에 엄청나게 운동이 많이 된답니다! </li>
+                        <br>
+                        <li>다들 스쿼시의 매력에 빠져 같이 플레이할 사람이 많아지면 좋겠습니다.</li>
+                    </ul>
+                </div>
+                <div><a href="pictures.html" target="_blank"><img src="../boodrami/camera/camera.jpg"></a>
+                    <ul>
+                        <li>저의 또 다른 취미인 사진 촬영입니다.</li>
+                        <br>
+                        <li>필름 카메라의 아날로그 감성을 좋아해서 Minolta X-700과 Canon AE-1 이라는 카메라를 보유 중입니다.</li>
+                        <br>
+                        <li>필름 값과 현상/스캔 값이 만만치 않아 한 컷 한 컷 찍을 때마다 정성을 다해 찍습니다 ㅠㅠ...</li>
+                        <br>
+                        <li>제가 찍은 사진들이 궁금하다면</li>
+                        <br>
+                        <li>←사진을 눌러보세요!</li>
+                    </ul>
+                </div>
+            </div>
+            <section id="trip">
+                <div>
+                    <h3 class="section-title">
+                        <i class="fa-solid fa-suitcase"> Trip&nbsp&nbsp&nbsp&nbsp&nbsp Click the flag!</i>
+
+                    </h3>
+                </div>
+                <hr/>
+            </section>
+            <div class="trip">
+                <div class="trip_row">
+                    <div class="peru">
+                        <a href="./pictures.html#peru"  target="_blank">
+                            <img class="flag" src="../boodrami/peru/flag_peru.png" alt="flag">
+                    </a></div>
+                    <div class="chile">
+                        <a href="./pictures.html#chile"  target="_blank">
+                            <img class="flag" src="../boodrami/chile/flag_chile.png" alt="flag">
+                    </a></div>
+                    <div class="argentina">
+                        <a href="./pictures.html#argentina"  target="_blank">
+                            <img class="flag" src="../boodrami/argentina/flag_argentina.png" alt="flag">
+                    </a></div>
+                </div>
+                <div class="trip_row">
+                    <div class="bolivia">
+                        <a href="./pictures.html#bolivia"  target="_blank">
+                            <img class="flag" src="../boodrami/bolivia/flag_bolivia.png" alt="flag">
+                    </a></div>
+                    <div class="japan">
+                        <a href="./pictures.html#japan"  target="_blank">
+                            <img class="flag" src="../boodrami/japan/flag_japan.png" alt="flag">
+                    </a></div>
+                    <div class="vietnam">
+                        <a href="./pictures.html#vietnam"  target="_blank">
+                            <img class="flag" src="../boodrami/vietnam/flag_vietnam.jpg" alt="flag">
+                    </a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="copyright">
+        Copyright © 2022 Dongyun Kim
+    </div>
+</body>
+</html>

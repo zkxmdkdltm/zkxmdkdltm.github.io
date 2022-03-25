@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #bfe2f0;
+}
+
+.hobby{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby img{
+    width: 400px;
+}
+.images img{
+    width: 400px;
+}
+
+.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    margin: 10px;
+}
